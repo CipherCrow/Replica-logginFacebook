@@ -1,2 +1,2 @@
-# PaginaInicial-livrocara-2020
- Replica da pagina inicial do facebook de 2020.
+# Projeto de replica do front-end do facebook de 2020.
+ Projeto feito sem fins lucrátivos e com foco em treino.
