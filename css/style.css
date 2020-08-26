@@ -12,7 +12,6 @@
 a{text-decoration: none;color: inherit;}
 body{
 	background-color: #f0f2f5;
-	height: 1vh;
 }
 .w50{width: 48%;}
 																			/*Sessão principal*/
@@ -22,14 +21,11 @@ main > .container{
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
+	min-height: 700px;
 }	
 
 													/*Container de loggins recentes*/
 
-section.loggin-recentes{
-	text-align: left;
-	padding: 0;
-}
 .loggins-recentes h1{
 	color: #1877F2;
 	font-size: 60px;
@@ -139,3 +135,24 @@ ul.links-clicaveis > li{
 	font-size: 12px;
 }
 
+																			/*Responsividade*/
+@media screen and (max-width: 900px){
+	.w50{
+		width: 100%;
+	}
+	main > .container{
+		min-width: 0px;
+	}
+	section.fazer-loggin{
+		margin: 20px 0;
+	}
+	.formularios{
+		max-width: 80%;
+		margin: 10px auto;
+	}
+	section.loggins-recentes{
+		text-align: center;
+		margin-top: 10px;
+	}
+
+}
