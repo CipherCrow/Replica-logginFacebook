@@ -2,9 +2,11 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif; /*Fonte Helvetica usada pelo facebook é paga*/
 }
 .container{
 	max-width: 980px;
 	padding: 0 1%;
 	margin: 0 auto;
 }
+a{text-decoration: none;color: inherit;}
