@@ -6,7 +6,7 @@
 }
 .container{
 	max-width: 980px;
-	padding: 0 1%;
+	padding: 0 2%;
 	margin: 0 auto;
 }
 a{text-decoration: none;color: inherit;}
@@ -153,6 +153,9 @@ ul.links-clicaveis > li{
 	section.loggins-recentes{
 		text-align: center;
 		margin-top: 10px;
+	}
+	footer.footer-geral{
+		text-align: center;
 	}
 
 }
