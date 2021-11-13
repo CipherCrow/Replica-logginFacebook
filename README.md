@@ -9,4 +9,4 @@ Projeto realizado para treinar posicionamento de itens com Flexbox. Como foi um 
 - [x] Responsividade
 - [ ] Finalizado
 - [x] Ao Ar
->Github-Pages: 
+>Github-Pages: https://ciphercrow.github.io/Replica-logginFacebook/
